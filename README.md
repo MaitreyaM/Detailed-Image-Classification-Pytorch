@@ -67,8 +67,12 @@ Below are the screenshots of the confusion matrices for each of the three models
 - **ANN Model:**
   ![ANN Confusion Matrix](ann_eval.png)
 
+  
+
 - **Custom CNN Model:**
   ![Custom CNN Confusion Matrix](cnn_eval.png)
+
+  
 
 - **VGG-19 Transfer Learning Model:**
   ![VGG-19 Confusion Matrix](vgg19_confusionmatrix.png)
