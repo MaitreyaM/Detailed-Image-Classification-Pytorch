@@ -60,6 +60,19 @@ Images are preprocessed (resized, normalized) using OpenCV and torchvision trans
    - Confusion matrices and classification reports are generated to analyze performance across all classes.
    - Cross-validation techniques (including k-fold CV) were also explored to ensure robustness of the model evaluation.
 
+## Confusion Matrices
+
+Below are the screenshots of the confusion matrices for each of the three models:
+
+- **ANN Model:**
+  ![ANN Confusion Matrix](ann_eval.png)
+
+- **Custom CNN Model:**
+  ![Custom CNN Confusion Matrix](cnn_eval.png)
+
+- **VGG-19 Transfer Learning Model:**
+  ![VGG-19 Confusion Matrix](vgg19_confusionmatrix.png)
+
 ## K-Fold Cross-Validation
 
 For a robust evaluation, we also implemented k-fold cross-validation (with k=10) on the training set. In this approach:
