@@ -8,6 +8,11 @@ Welcome to the **Image Classification Project** repository! This project explore
 
 Each approach is implemented in its own Jupyter Notebook, allowing you to compare their performance and understand the progression from simple models to more advanced architectures.
 
+
+## Device Agnosticism & Training Environment
+
+This code is device-agnostic; it automatically detects and uses a GPU if available, otherwise it defaults to CPU. **All models in this project were trained on an RTX A2000 GPU using CUDA in PyTorch.**
+
 ## Overview
 
 In this project, we built and evaluated three models to classify natural scene images into six categories: *buildings*, *forest*, *glacier*, *mountain*, *sea*, and *street*. The models are:
