@@ -64,18 +64,32 @@ Images are preprocessed (resized, normalized) using OpenCV and torchvision trans
 
 Below are the screenshots of the confusion matrices for each of the three models:
 
-- **ANN Model:**
-  ![ANN Confusion Matrix](ann_eval.png)
+---
 
-  
+### ANN Model
+<div align="center">
+  <img src="ann_eval.png" alt="ANN Confusion Matrix" width="400"/>
+</div>
 
-- **Custom CNN Model:**
-  ![Custom CNN Confusion Matrix](cnn_eval.png)
+**Description**: This confusion matrix shows how the ANN model predicted each of the six classes.
 
-  
+---
 
-- **VGG-19 Transfer Learning Model:**
-  ![VGG-19 Confusion Matrix](vgg19_confusionmatrix.png)
+### Custom CNN Model
+<div align="center">
+  <img src="cnn_eval.png" alt="Custom CNN Confusion Matrix" width="400"/>
+</div>
+
+**Description**: This confusion matrix shows how the Custom CNN model predicted each of the six classes.
+
+---
+
+### VGG-19 Transfer Learning Model
+<div align="center">
+  <img src="vgg19_confusionmatrix.png" alt="VGG-19 Confusion Matrix" width="400"/>
+</div>
+
+**Description**: This confusion matrix shows how the VGG-19 Transfer Learning model predicted each of the six classes.
 
 ## K-Fold Cross-Validation
 
